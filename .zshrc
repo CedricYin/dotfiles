@@ -80,6 +80,7 @@ plugins=(
         colorize
         command-not-found
         aliases
+        git-open
         debian
         vi-mode
         per-directory-history
