@@ -2404,6 +2404,6 @@ font_size 15.0
 
 
 # BEGIN_KITTY_THEME
-# Tokyo Night
+# Monokai Pro (Filter Machine)
 include current-theme.conf
 # END_KITTY_THEME
