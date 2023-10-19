@@ -145,6 +145,9 @@ alias r=ranger
 alias m=tldr
 alias cat=ccat
 alias less=cless
+alias icat="kitten icat"
+alias kdiff="kitten diff"
+alias c=clear
 
 
 

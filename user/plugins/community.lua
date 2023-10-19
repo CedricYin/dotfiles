@@ -13,4 +13,6 @@ return {
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.motion.vim-matchup" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
+  { import = "astrocommunity.markdown-and-latex.glow-nvim" },
+  -- { import = "astrocommunity.color.transparent-nvim" },
 }
