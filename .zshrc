@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="simple"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -135,7 +135,12 @@ export PATH="/usr/lib/ccache:/home/ysq/.local/bin:$PATH"
 . "$HOME/.cargo/env"
 source /home/ysq/alacritty/extra/completions/alacritty.bash
 export PATH=$PATH:/usr/local/go/bin
-export TERM=xterm-256color
+export XMODIFIERS=@im=fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+
+
+
 alias setproxy="export ALL_PROXY=socks5://127.0.0.1:7890"
 alias unsetproxy="unset ALL_PROXY"
 alias s=neofetch

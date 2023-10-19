@@ -4,6 +4,7 @@ rsync -r --exclude=".git" ~/.config/nvim/lua/user ~/dotfile/
 rsync -r ~/scripts ~/dotfile/
 rsync -r ~/.config/kitty ~/dotfile/
 rsync ~/.zshrc ~/dotfile
+rsync ~/.config/ranger/rc.conf ~/dotfile
 
 cd ~/dotfile
 git add .
