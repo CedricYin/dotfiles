@@ -82,7 +82,7 @@ plugins=(
         aliases
         git-open
         debian
-        vi-mode
+        # vi-mode
         per-directory-history
         zsh-autosuggestions
         zsh-syntax-highlighting
